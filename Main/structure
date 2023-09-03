@@ -1,0 +1,120 @@
+\documentclass[a4paper,12pt]{article}
+\input{Prework}
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%
+%%  Title Page  %%
+%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+    \begin{center}
+                  %%% Department of Mechanical Engineering %%%
+			{%
+				\fontsize{12}{14.4} % Change to Meet Spec. 
+				\textbf{School of Civil and Mechanical Engineering\\
+                        Bentley Campus\\
+                        MCEN4005 Mechanical Engineering Research Project 1\\
+                        Progress Report}\\%
+				\vspace{\stretch{1}}
+			}%  
+             %%% Thesis Title %%%
+   		{%
+				\fontsize{12}{16.4} % Change to Meet Spec. 
+				\text{Particle Distribution Through a Bent Pipe}\\%
+				\vspace{\stretch{3.5}}
+			}%
+            %%% Submission %%%
+   		{%
+				\fontsize{12}{16.4} % Change to Meet Spec. 
+				\text{Semester 2 2023}\\%
+				\vspace{\stretch{2}}
+			}%
+%%% Details %%%
+            {%
+				\fontsize{12}{16.4} % Change to Meet Spec. 
+				\text{Shaun Dominic Correa}\\%
+                \text{Student ID: 19460936}
+				\vspace{\stretch{0.2}}\\
+                \text{Supervisor: Dr. Julien Cisonni}
+			}%
+   \end{center}
+\end{titlepage}
+
+%% Leave the Page Blank %%
+\newpage
+\mbox{}  % Empty box to ensure the page isn't entirely empty
+\vfill
+\begin{center}
+    \text{[This page is intentionally left blank.]}
+\end{center}
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%  Abstract Here  %%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{Chapters/Abstract}
+%% Leave the Page Blank %%
+\newpage
+\mbox{}  % Empty box to ensure the page isn't entirely empty
+\vfill
+\begin{center}
+    \text{[This page is intentionally left blank.]}
+\end{center}
+\vfill
+%% Leave Page Blank %% 
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Table of Contents  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  List of Figures  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\listoffigures
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  List of Tables  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Nomenclature  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Chapters/Nomenclature}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Introduction  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Chapters/Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Aims  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Chapters/Aims}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Results and Discussion  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Chapters/Results and Discussion}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Future Work  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Chapters/Future Work}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  References  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{References}
+\vspace{14.4pt} % Leave one blank line (12-point spacing)
+This is the References section.
+This is a sample text with citations \citep{author1,author2}.
+
+\bibliographystyle{chicago}  % Specify the Chicago-style .bst file
+\bibliography{chicago}  % Replace with your .bib file name
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Appendix  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Appendix}
+\vspace{14.4pt} % Leave one blank line (12-point spacing)
+This is the Appendix section.
+
+\end{document}
